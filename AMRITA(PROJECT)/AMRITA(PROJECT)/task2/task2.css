@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+}
+#one{
+    height: 100vh;
+    width: 25vw;
+    background-color: white;
+}
+
+#two{
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+    
+
+}
+
+#three{
+    height: 100vh;
+    width: 25vw;
+    background-color: white;
+}
+
+#Heading{
+    
+    font-size: 4rem;
+    color: black;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#Heading2{
+    font-size: 1.5rem;
+    color: black;
+    margin-left:5px;
+    
+    display: flex;
+}
+
+#letter{
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 5px;
+    display: flex;
+}
