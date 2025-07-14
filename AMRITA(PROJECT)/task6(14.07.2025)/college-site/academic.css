@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#table{
+    display: flex;
+    gap: 90px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(247, 194, 203);
+}
+img{
+    width: 100%;
+    position: relative;
+    bottom:195px;
+}

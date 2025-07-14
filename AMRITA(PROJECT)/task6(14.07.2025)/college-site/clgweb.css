@@ -1,0 +1,177 @@
+*{margin: 0;
+    padding: 0;
+}
+#nav1{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    gap: 60px;
+    background-color: rgb(69, 2, 29);
+    color: white;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#center{
+    padding-left: 60px;
+      display: flex;
+    align-items: center;
+}
+#center #search{
+    height: 19px;
+    width: 422px;
+}
+#left{
+    gap: 17px;
+    padding-left: 206px;
+      display: flex;
+    align-items: center;
+}
+#right1{
+    gap: 3px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#right1 a{
+    color: white;
+}
+#nav1 img{
+    height: 30px;
+}
+#nav2{
+    width: 100%;
+    height: 30px;
+     display: flex;
+    
+     color: white;
+    gap: 30px;
+    background-color: rgb(135, 63, 92);
+}
+#nav2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: white;
+
+}
+#nav2 #login a{
+    padding-left: 770px;
+}
+
+#nav2 img{
+    width: 20px;
+    height: 60%;
+}
+#nav3 img{
+    width: 100%;
+    height: 300px;
+}
+
+#text{
+    height: 5vh;
+    width: 100%;
+    position: relative;
+    bottom:36vh;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#marque{
+    width: 100%;
+    position : relative;
+    bottom: 150px;
+    background-color:transparent;
+    font-weight: bolder;
+}
+#marque h1{
+    font-size: larger;
+    
+}
+#marque2{
+     width: 100%;
+    position : relative;
+    bottom: 50px;
+    background-color:rgb(160, 11, 58);
+}
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    height: 90px;
+}
+#card1{
+     width: 287px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: rgb(255, 0, 0);
+    padding-left: 5px;color: aliceblue;
+}
+#card2{
+    width: 287px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: rgb(180, 99, 69);
+    padding-left: 5px;color: aliceblue;
+}
+#card3{
+    width: 287px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: rgb(51, 51, 210);
+    padding-left: 5px;color: aliceblue;
+}
+#card4{
+    width: 287px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: rgb(69, 154, 69);
+    padding-left: 5px;color: aliceblue;
+}
+ul{
+    font-size:45px;
+}
+#hub p{
+    padding-top: 45px;
+}
+#plcement-Details a{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(99, 188, 132);
+    color: black;
+}
+#courses img{
+    width: 100%;
+    height: 250px;
+}
+#courses h1{
+    margin-top: 50px;
+    text-align: center;
+    background-color: plum;
+
+}
+footer{
+    margin-top: 75px;
+    padding-top: 56px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(76, 6, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+footer p{
+    padding-bottom: 65px;
+}
