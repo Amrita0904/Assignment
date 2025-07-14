@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-color: aliceblue;
+}
+.main {
+  width: 100%;
+}
+#nav1 {
+  display: flex;
+  width: 100%;
+  height: 33px;
+  padding-top: 10px;
+  background-color: rgb(23, 41, 98);
+  color: white;
+  gap: 15px;
+  font-size: large;
+}
+#nav1 img {
+  padding-top: 9px;
+  width: 15px;
+  height: 35%;
+}
+#nav2 {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  gap: 35px;
+  font-size: larger;
+  background-color: white;
+}
+#nav2 img {
+  height: 100%;
+  width: 290px;
+}
+
+#center {
+  display: flex;
+  padding: 15px;
+  width: 600px;
+}
+#categories1 {
+  width: 22%;
+  height: 165%;
+  color: rgb(16, 16, 120);
+}
+#categories1:hover {
+  background-color: rgb(38, 105, 164);
+  color: white;
+}
+#search {
+  margin-left: 48px;
+  width: 68%;
+  height: 29px;
+  border: solid rgb(166, 157, 157) 1px;
+  border-radius: 25px;
+}
+
+#right {
+  padding-top: 8px;
+  display: flex;
+  gap: 10px;
+  color: blue;
+}
+#right button {
+  width: 59px;
+  height: 35px;
+  border-color: 1px solid rgb(3, 3, 159);
+  background-color: white;
+}
+#nav3 {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  gap: 35px;
+  font-size: larger;
+  background-color: white;
+  color: rgb(72, 70, 70);
+}
+#nav3 #left1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav3 #right1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-left: 166px;
+}
+#nav3 #categories2 {
+  height: 60%;
+}
+#nav3 #categories2:hover {
+  background-color: rgb(88, 122, 174);
+  color: white;
+}
+#banner img {
+  width: 100%;
+  height: 250px;
+}
+#card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+  gap: 25px;
+}
+#card1 {
+  height: 70px;
+  display: flex;
+  background-color: white;
+  position: relative;
+  bottom: 30px;
+}
+
+#card2 {
+  height: 70px;
+  display: flex;
+  background-color: white;
+  position: relative;
+  bottom: 30px;
+}
+#card3 {
+  height: 70px;
+  display: flex;
+  background-color: white;
+  position: relative;
+  bottom: 30px;
+}
+#carddiv1 {
+  padding-top: 15px;
+}
+#carddiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-small;
+}
+#nav5 {
+  padding: 15px;
+  display: flex;
+  gap: 78px;
+}
+#a:hover {
+  text-decoration: underline;
+}
+#b:hover {
+  background-color: rgb(214, 212, 212);
+  border-radius: 15px;
+}
+#chart {
+  height: 650px;
+  display: grid;
+  grid-template-columns: 269px 269px 269px 269px;
+  grid-template-rows: 300px 300px;
+  justify-content: center;
+  align-items: center;
+
+  column-gap: 30px;
+  row-gap: 38px;
+  padding: 30px;
+}
+#chart1 {
+  height: 100%;
+
+  border: solid black 1px;
+}
+#chart1 img {
+  width: 100%;
+  height: 50%;
+}
+#chart1 p {
+  padding-top: 30px;
+  padding-left: 15px;
+  font-size: larger;
+}
+#chart2 {
+  height: 100%;
+  border: solid black 1px;
+}
+#chart2 img {
+  width: 100%;
+  height: 50%;
+}
+#chart2 p {
+  padding-left: 15px;
+  padding-top: 30px;
+  font-size: larger;
+}
+#chart3 {
+  height: 100%;
+  border: solid black 1px;
+}
+#chart3 img {
+  width: 100%;
+  height: 50%;
+}
+#chart3 p {
+  padding-left: 15px;
+  padding-top: 30px;
+  font-size: larger;
+}
+#chart4 {
+  height: 100%;
+  border: solid black 1px;
+}
+#chart4 img {
+  width: 100%;
+  height: 50%;
+}
+#chart4 p {
+  padding-left: 15px;
+  padding-top: 30px;
+  font-size: larger;
+}
+#chart5 {
+  height: 100%;
+  border: solid black 1px;
+}
+#chart5 img {
+  width: 100%;
+  height: 50%;
+}
+#chart5 p {
+  padding-left: 15px;
+  padding-top: 30px;
+  font-size: larger;
+}
+#chart6 {
+  height: 100%;
+  border: solid black 1px;
+}
+#chart6 img {
+  width: 100%;
+  height: 50%;
+}
+#chart6 p {
+  padding-left: 15px;
+  padding-top: 30px;
+  font-size: larger;
+}
+.stars {
+  color: gold;
+  font-size: 24px;
+}
+.rating-text {
+  font-size: 18px;
+}
+.stars {
+  display: flex;
+}
+.rating-text {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 5px;
+  color: black;
+}
