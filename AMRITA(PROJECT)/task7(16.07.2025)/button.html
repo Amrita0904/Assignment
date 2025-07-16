@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>colour Game </title>
+    <link rel="stylesheet" href="button.css">
+  </head>
+  <body>
+    <main>
+      <h1 id="heading">Change the Colour</h1>
+
+      <div class="buttons">
+        <button class="colour-red" onclick="setColour(' rgb(244, 12, 78)')">Red</button>
+        <button class="colour-blue" onclick="setColour('#00a6ff')">Blue</button>
+        <button class="colour-pink" onclick="setColour('#d63797')">Pink</button>
+        <button class="colour-yellow" onclick="setColour('rgb(254, 254, 118)')">Yellow</button>
+        
+      </div>
+      <div class="button">
+        <button class="colour-white" onclick="setColour('white')">Refresh</button>
+      </div>
+    </main>
+
+    <script>
+      function setColour(colour) {
+        document.body.style.backgroundColor = colour;
+      }
+    </script>
+  </body>
+</html>
