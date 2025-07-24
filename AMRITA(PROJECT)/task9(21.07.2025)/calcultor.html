@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcultor.css">
+</head>
+<body>
+    <div id="main">
+        <div id="box1">
+            <input id="input" type="text">
+        </div>
+        <div id="box2">
+            <button class="delete" id="clear" onclick="Clear()"><p>C</p></button>
+            <button class="delete" id="backspace" onclick="Back()"><p>AC</p></button>
+            <button onclick="solve('%')"><p>%</p></button>
+            <button onclick="solve('/')"><p>/</p></button>
+        </div>        
+        <div id="box3">
+            <button onclick="solve('7')"><p>7</p></button>
+            <button onclick="solve('8')"><p>8</p></button>
+            <button onclick="solve('9')"><p>9</p></button>
+            <button onclick="solve('*')"><p>*</p></button>
+        </div>        
+        <div id="box4">
+            <button onclick="solve('4')"><p>4</p></button>
+            <button onclick="solve('5')"><p>5</p></button>
+            <button onclick="solve('6')"><p>6</p></button>
+            <button onclick="solve('-')"><p>-</p></button>
+        </div>        
+        <div id="box5">
+            <button onclick="solve('1')"><p>1</p></button>
+            <button onclick="solve('2')"><p>2</p></button>
+            <button onclick="solve('3')"><p>3</p></button>
+            <button onclick="solve('+')"><p>+</p></button>
+        </div>        
+        <div id="box6">
+            <button onclick="solve('00')"><p>00</p></button>
+            <button onclick="solve('0')"><p>0</p></button> 
+            <button onclick="solve('.')"><p>.</p></button>
+            <button onclick="Result('=')"><p>=</p></button>
+        </div>        
+
+    </div>
+    <script src="calcultor.js"></script>
+</body>
+</html>
